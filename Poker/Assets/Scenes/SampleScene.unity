@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 25192691}
   - component: {fileID: 25192692}
-  - component: {fileID: 25192693}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -172,22 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5391370891ecf942acbc6d09dbbc43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bet: {fileID: 0}
-  CardChanges: 0000000000000000000000000000000000000000
-  CardChangeDone: 0
---- !u!114 &25192693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25192690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5391370891ecf942acbc6d09dbbc43e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bet: {fileID: 0}
+  Bet: {fileID: 519420033}
   CardChanges: 0000000000000000000000000000000000000000
   CardChangeDone: 0
 --- !u!1 &78118291
@@ -817,8 +801,8 @@ MonoBehaviour:
   - {fileID: 78118293}
   spriteAtlas: {fileID: 4343727234628468602, guid: fdb685d80e01de8489a9e5896ce7bd6c, type: 2}
   GameResult: {fileID: 159245311}
-  Player: {fileID: 0}
-  CPUPlayer: {fileID: 0}
+  Player: {fileID: 1607688392}
+  CPUPlayer: {fileID: 25192692}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -888,7 +872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c43f8a515751b4782248106df75f90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Chip: {fileID: 0}
+  Chip: {fileID: 519420034}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,10 +901,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameState: 0
-  Dealer: {fileID: 0}
-  Player: {fileID: 0}
-  CPUPlayer: {fileID: 0}
-  Chip: {fileID: 0}
+  Dealer: {fileID: 519420030}
+  Player: {fileID: 1607688392}
+  CPUPlayer: {fileID: 25192692}
+  Chip: {fileID: 519420034}
 --- !u!1 &562537094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59263e886bbf52b4a82c70c453ba3916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bet: {fileID: 0}
+  Bet: {fileID: 519420033}
   CardChanges: 0000000000000000000000000000000000000000
   CardChange: 0
 --- !u!1 &1624974181
